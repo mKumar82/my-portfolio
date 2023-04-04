@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const Error = () => {
   return <Wrapper>
-        <img src='\public\images\erroe.jpg' alt='erroe'/>
+        <img src='images\erroe.jpg' alt='erroe'/>
         <NavLink to='/'>
             <Button>Go Back</Button>
         </NavLink>
