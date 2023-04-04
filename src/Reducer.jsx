@@ -1,0 +1,27 @@
+const reducer=(state,action)=>{
+    
+    if(action.type === "HOME_PAGE"){
+        return {...state,
+        name:action.payload.name,
+        image:action.payload.image,
+        para:action.payload.para,
+        }
+    }
+    if(action.type === "ABOUT_PAGE"){
+        return {...state,
+        name:action.payload.name,
+        image:action.payload.image,
+        para:action.payload.para,
+        }
+    }
+    if(action.type === "GET_SERVICES"){
+        return {
+        ...state,
+        services:action.payload,
+        }
+    }
+    
+    return state;
+}
+
+export default reducer
