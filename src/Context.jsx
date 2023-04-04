@@ -27,7 +27,7 @@ const AppProvider  = ({children})=>{
                 payload : {
                     name:"I'm MANISH",
                     para:"I AM A FULL STACK DEVELOPER",
-                    image:"/images/mkphoto.jpg",
+                    image:"images/mkphoto.jpg",
                     
                 }
             }
@@ -49,7 +49,7 @@ const AppProvider  = ({children})=>{
                         database:`Database : Mysql,Oracle 10g,MongoDB`,
 
                     },
-                    image:"/images/mkphoto.jpg",
+                    image:"images/mkphoto.jpg",
                 }
             }
         );
